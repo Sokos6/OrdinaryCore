@@ -4,6 +4,8 @@ const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 
+// Loader not implemented for new quotes....Quote API has 429 error regularly for to many calls
+
 async function getQuote() {
   const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
   const apiUrl =
