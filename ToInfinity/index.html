@@ -4,28 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Infinity</title>
-
+    <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>To Infinity</h1>
-    <div class="loader" id="loader" hidden>
-      <img src="loader.svg" alt="loading" />
+    <!-- Title -->
+    <h1>Unsplash API - Infinite Scroll</h1>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+      <img src="loader.svg" alt="Loading" />
     </div>
-    <div class="image-container" id="image-container">
-      <img
-        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80"
-        alt=""
-      />
-      <img
-        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80"
-        alt=""
-      />
-      <img
-        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80"
-        alt=""
-      />
-    </div>
+    <!-- Image Container -->
+    <div class="image-container" id="image-container"></div>
+    <!-- Script -->
     <script src="script.js"></script>
   </body>
 </html>
